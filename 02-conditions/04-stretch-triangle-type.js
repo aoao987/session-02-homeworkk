@@ -11,3 +11,14 @@
 //   Isosceles
 
 // your code here
+const a = 3;
+const b = 4;
+const c = 5;
+
+if (a === b && b === c) {
+    console.log("Equilateral");
+} else if (a === b || a === c || b === c) {
+    console.log("Isosceles");
+} else {
+    console.log("Scalene");
+}
